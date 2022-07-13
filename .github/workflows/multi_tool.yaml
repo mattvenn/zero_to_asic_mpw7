@@ -6,7 +6,7 @@ jobs:
     env:
         OPENLANE_ROOT:  /home/runner/openlane
         PDK_ROOT:       /home/runner/pdk
-        PDK:            sky130A
+        PDK:            sky130B
     # ubuntu
     runs-on: ubuntu-latest
     steps:
@@ -49,6 +49,7 @@ jobs:
     - name: remove compressed gds
       run: | 
         rm -f gds/*gz
+        find /home/runner/work/zero_to_asic_mpw7/zero_to_asic_mpw7/
 
     # install oss fpga tools
     - name: install oss-cad-suite
