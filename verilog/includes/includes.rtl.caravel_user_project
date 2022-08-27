@@ -3,6 +3,17 @@
 //  0 Function generator             : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_function_generator
 -v $(USER_PROJECT_VERILOG)/rtl/wrapped_function_generator/wrapper.v
 -v $(USER_PROJECT_VERILOG)/rtl/wrapped_function_generator/function_generator/src/generator.v
+//  1 ibnalhaytham                   : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_ibnalhaytham
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/register_file.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/processor.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/mux3.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/memory_controler.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/ibnalhaytham.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/hazard_unit.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/extend.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/control_unit.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/alu.v
 // shared Bridge                     : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wb_bridge
 // shared Wrapper                    : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wb_openram_wrapper
 // shared OpenRAM 1kybte             : /home/matt/work/asic-workshop/shuttle7/openlane/designs/openram_z2a

@@ -5,7 +5,7 @@
 
 This ASIC was designed by members of the [Zero to ASIC course](https://zerotoasiccourse.com).
 
-This submission was configured and built by the [multi project tools](https://github.com/mattvenn/multi_project_tools) at commit [844467afce79ef1cef4ba96be08f85d40fbb156c](https://github.com/mattvenn/multi_project_tools/commit/844467afce79ef1cef4ba96be08f85d40fbb156c).
+This submission was configured and built by the [multi project tools](https://github.com/mattvenn/multi_project_tools) at commit [cb6f259965e9415b4c6f6d56479070ee3aaf4006](https://github.com/mattvenn/multi_project_tools/commit/cb6f259965e9415b4c6f6d56479070ee3aaf4006).
 
 The configuration files are [projects.yaml](projects.yaml) & [local.yaml](local.yaml). See the CI for how the build works.
 
@@ -33,4 +33,13 @@ The configuration files are [projects.yaml](projects.yaml) & [local.yaml](local.
 * Description: arbitary function generator, using shared RAM as the output data
 
 ![Function generator](pics/function_generator.png)
+
+## ibnalhaytham
+
+* Author: Farhad Modaresi
+* Github: https://github.com/sfmth/wrapped_ibnalhaytham
+* commit: 0627452464db56b813a3aae8899e8339a358fac9
+* Description: 32-bit RISC-V based processor
+
+![ibnalhaytham](pics/layout.png)
 
