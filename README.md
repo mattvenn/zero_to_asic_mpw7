@@ -5,7 +5,7 @@
 
 This ASIC was designed by members of the [Zero to ASIC course](https://zerotoasiccourse.com).
 
-This submission was configured and built by the [multi project tools](https://github.com/mattvenn/multi_project_tools) at commit [cb6f259965e9415b4c6f6d56479070ee3aaf4006](https://github.com/mattvenn/multi_project_tools/commit/cb6f259965e9415b4c6f6d56479070ee3aaf4006).
+This submission was configured and built by the [multi project tools](https://github.com/mattvenn/multi_project_tools) at commit [8be9641236aa5c055f6195d3d903eb63e4f1336e](https://github.com/mattvenn/multi_project_tools/commit/8be9641236aa5c055f6195d3d903eb63e4f1336e).
 
 The configuration files are [projects.yaml](projects.yaml) & [local.yaml](local.yaml). See the CI for how the build works.
 

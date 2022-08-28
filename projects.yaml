@@ -67,3 +67,8 @@ projects:
         repo:   'https://github.com/sfmth/wrapped_ibnalhaytham'
         commit: '0627452464db56b813a3aae8899e8339a358fac9'
         pos:    '900 1200 N'
+
+    etpu:
+        repo:   'https://github.com/tucanae47/wrapped_etpu'
+        commit: '748d3cc0bcba8abb06acd40ab13ed89ff307ede6'
+        pos:    '320 2025 N'
