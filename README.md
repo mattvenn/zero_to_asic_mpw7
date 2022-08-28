@@ -43,3 +43,12 @@ The configuration files are [projects.yaml](projects.yaml) & [local.yaml](local.
 
 ![ibnalhaytham](pics/layout.png)
 
+## Educational tpu
+
+* Author: Camilo Soto
+* Github: https://github.com/tucanae47/wrapped_etpu
+* commit: 748d3cc0bcba8abb06acd40ab13ed89ff307ede6
+* Description: 3x3 systolic array 
+
+![Educational tpu](pics/etpu.png)
+
