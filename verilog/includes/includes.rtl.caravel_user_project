@@ -14,6 +14,11 @@
 -v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/extend.v
 -v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/control_unit.v
 -v $(USER_PROJECT_VERILOG)/rtl/wrapped_ibnalhaytham/ibnalhaytham/src/alu.v
+//  3 Educational tpu                : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_etpu
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/etpu/src/edu_tpu.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/etpu/src/npu_wb.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/etpu/src/sysa_pe.v
 // shared Bridge                     : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wb_bridge
 // shared Wrapper                    : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wb_openram_wrapper
 // shared OpenRAM 1kybte             : /home/matt/work/asic-workshop/shuttle7/openlane/designs/openram_z2a
