@@ -72,3 +72,8 @@ projects:
         repo:   'https://github.com/tucanae47/wrapped_etpu'
         commit: '748d3cc0bcba8abb06acd40ab13ed89ff307ede6'
         pos:    '320 2025 N'
+
+    slife:
+        repo:   'https://github.com/wokwi/wrapped_silife'
+        commit: '5d7158803c0bd0400dcc0a44065a25743d6a0d01'
+        pos:    '0 0 N'
