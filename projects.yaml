@@ -75,5 +75,5 @@ projects:
 
     slife:
         repo:   'https://github.com/wokwi/wrapped_silife'
-        commit: '5d7158803c0bd0400dcc0a44065a25743d6a0d01'
+        commit: 'aec0f0f7ad458675d961a8289d16064bf15964f6'
         pos:    '1700 2000 N'
