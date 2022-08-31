@@ -66,8 +66,9 @@ jobs:
         cocotb-config --libpython
         cocotb-config --python-bin
 
+    # do something else
     - name: setup python
-    - run: pip install -r $HOME/multi_project_tools/requirements.txt
+      run: pip install -r $HOME/multi_project_tools/requirements.txt
 
     # fetch the repos
     - name: fetch all
