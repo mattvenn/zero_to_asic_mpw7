@@ -14,12 +14,12 @@ jobs:
     - name: checkout repo
       uses: actions/checkout@v2
 
-#    # build pdk
-#    - name: pdk & openlane & precheck
-#      run: |
-#        make setup
-#        make precheck
-#
+    # build pdk
+    - name: pdk & openlane & precheck
+      run: |
+        make setup
+        make precheck
+
     - name: multi tools
       run: |
         cd $HOME
@@ -27,22 +27,17 @@ jobs:
 
 
     # install riscv gcc
-#    - name: riscv gcc
-#      run: |
-#        cd $HOME
-#        wget https://static.dev.sifive.com/dev-tools/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-ubuntu14.tar.gz
-#        tar -xzf riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-ubuntu14.tar.gz
+    - name: riscv gcc
+      run: |
+        cd $HOME
+        wget https://static.dev.sifive.com/dev-tools/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-ubuntu14.tar.gz
+        tar -xzf riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-ubuntu14.tar.gz
 
-#    # pwd
-#    - name: pwd
-#      run: |
-#        pwd # /home/runner/work/zero_to_asic_mpw6/zero_to_asic_mpw6
-
-#    # remove existing compressed gds
-#    - name: remove compressed gds
-#      run: | 
-#        rm -f gds/*gz
-#        find /home/runner/work/zero_to_asic_mpw7/zero_to_asic_mpw7/
+    # remove existing compressed gds
+    - name: remove compressed gds
+      run: | 
+        rm -f gds/*gz
+        find /home/runner/work/zero_to_asic_mpw7/zero_to_asic_mpw7/
 
     # install oss fpga tools
     - name: install oss-cad-suite
