@@ -62,7 +62,10 @@ jobs:
 
     # fetch the repos
     - name: fetch all
-      run: python $HOME/multi_project_tools/multi_tool.py --clone-repos --clone-shared-repos --openram 
+      run: |
+        mkdir /home/runner/projects
+        python $HOME/multi_project_tools/multi_tool.py --clone-repos --clone-shared-repos --openram 
+        gunzip -v -r /home/runner/projects
 
     # install projects
     - name: install project
