@@ -25,13 +25,6 @@ jobs:
         cd $HOME
         git clone https://github.com/mattvenn/multi_project_tools.git
 
-    # need python
-    - name: setup python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.7.7'
-        cache: 'pip'
-    - run: pip install -r $HOME/multi_project_tools/requirements.txt
 
     # install riscv gcc
 #    - name: riscv gcc
@@ -55,7 +48,7 @@ jobs:
     - name: install oss-cad-suite
       uses: YosysHQ/setup-oss-cad-suite@v1
       with:
-          python-override: false # don't want to use that python
+          python-override: true # don't want to use that python
     - run: | 
         yosys --version
         iverilog -V
@@ -63,6 +56,20 @@ jobs:
         which python
         python3 -V
         python -V
+        cocotb-config --libpython
+        cocotb-config --python-bin
+
+    # need python
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.7.7'
+        cache: 'pip'
+    - run: pip install -r $HOME/multi_project_tools/requirements.txt
+
+    # test python
+    - name: test python
+      run:
         cocotb-config --libpython
         cocotb-config --python-bin
 
