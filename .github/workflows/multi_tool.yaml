@@ -26,12 +26,12 @@ jobs:
         git clone https://github.com/mattvenn/multi_project_tools.git
 
     # need python
-    - name: setup python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.7.7'
-        cache: 'pip'
-    - run: pip install -r $HOME/multi_project_tools/requirements.txt
+#    - name: setup python
+#      uses: actions/setup-python@v2
+#      with:
+#        python-version: '3.7.7'
+#        cache: 'pip'
+#    - run: pip install -r $HOME/multi_project_tools/requirements.txt
 
     # install riscv gcc
 #    - name: riscv gcc
@@ -65,7 +65,10 @@ jobs:
         python -V
         cocotb-config --libpython
         cocotb-config --python-bin
-
+    
+    # python requirements
+    - name: install python requirements
+    - run: pip install -r $HOME/multi_project_tools/requirements.txt
 
     # fetch the repos
     - name: fetch all
