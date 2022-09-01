@@ -19,6 +19,35 @@
 -v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/etpu/src/edu_tpu.v
 -v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/etpu/src/npu_wb.v
 -v $(USER_PROJECT_VERILOG)/rtl/wrapped_etpu/etpu/src/sysa_pe.v
+//  2 SiLife                         : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_silife
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/buf_reg.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/cell.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_32x32.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_loader.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_sync.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_sync_edge.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_trng_loader.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/grid_wishbone.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/spi_master.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/max7219.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/trng.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/silife.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/vga.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_silife/silife/src/vga_sync_gen.v
+//  4 snn-asic                       : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_snn_network
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/input_neuron.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/hidden_neuron.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/output_neuron.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/snn_network.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_snn_network/src/spk_counter.v
+//  5 wrapped mbs fsk                : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wrapped_mbsFSK
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/mbsFSK/src/mbsFSK.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/mbsFSK/src/sampleClockGen.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/mbsFSK/src/SymbLUT.v
+-v $(USER_PROJECT_VERILOG)/rtl/wrapped_mbsFSK/mbsFSK/src/LFSRmod.v
 // shared Bridge                     : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wb_bridge
 // shared Wrapper                    : /home/matt/work/asic-workshop/shuttle7/openlane/designs/wb_openram_wrapper
 // shared OpenRAM 1kybte             : /home/matt/work/asic-workshop/shuttle7/openlane/designs/openram_z2a
