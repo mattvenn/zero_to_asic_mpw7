@@ -5,7 +5,7 @@
 
 This ASIC was designed by members of the [Zero to ASIC course](https://zerotoasiccourse.com).
 
-This submission was configured and built by the [multi project tools](https://github.com/mattvenn/multi_project_tools) at commit [8be9641236aa5c055f6195d3d903eb63e4f1336e](https://github.com/mattvenn/multi_project_tools/commit/8be9641236aa5c055f6195d3d903eb63e4f1336e).
+This submission was configured and built by the [multi project tools](https://github.com/mattvenn/multi_project_tools) at commit [3a2cb30fe243a183bdeedd0a54067176d002ba67](https://github.com/mattvenn/multi_project_tools/commit/3a2cb30fe243a183bdeedd0a54067176d002ba67).
 
 The configuration files are [projects.yaml](projects.yaml) & [local.yaml](local.yaml). See the CI for how the build works.
 
@@ -47,8 +47,35 @@ The configuration files are [projects.yaml](projects.yaml) & [local.yaml](local.
 
 * Author: Camilo Soto
 * Github: https://github.com/tucanae47/wrapped_etpu
-* commit: 748d3cc0bcba8abb06acd40ab13ed89ff307ede6
-* Description: 3x3 systolic array 
+* commit: d25b41070e74c47a00c1f264af068523c52c584a
+* Description: 3x3 systolic array over wishbone bus
 
 ![Educational tpu](pics/etpu.png)
+
+## SiLife
+
+* Author: Uri Shaked
+* Github: https://github.com/wokwi/wrapped_silife
+* commit: aec0f0f7ad458675d961a8289d16064bf15964f6
+* Description: Game of Life, in Silicon
+
+![SiLife](pics/silife.png)
+
+## snn-asic
+
+* Author: Peng Zhou
+* Github: https://github.com/pengzhouzp/wrapped_snn_network
+* commit: d0f3a80e664bf6327274c5fef0ace2af40db311b
+* Description: asic snn accelerator with adaptive threshold neurons and recurrent connective synapses
+
+![snn-asic](pics/wrapped_snn_network.png)
+
+## wrapped mbs fsk
+
+* Author: James Rosenthal
+* Github: https://github.com/jdrosent/wrapped_mbsFSK
+* commit: ac3713d3220f225a6de8481bd3b72e245614e064
+* Description: baseband signal engine for a backscatter uplink
+
+![wrapped mbs fsk](pics/chipLayout.png)
 
